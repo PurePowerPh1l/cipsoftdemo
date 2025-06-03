@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="de" data-color-scheme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philipp Hahn - Linux System Administrator | Cipsoft Application</title>
+    <meta name="description" content="Interactive portfolio showcasing gaming passion and technical excellence for Cipsoft application">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Loading Adventure...</p>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <span class="brand-text">PH</span>
+            </div>
+            <div class="nav-controls">
+                <div class="theme-switcher">
+                    <button class="theme-btn active" data-theme="dark" title="Dark Mode">🌙</button>
+                    <button class="theme-btn" data-theme="gaming" title="Gaming Mode">🎮</button>
+                    <button class="theme-btn" data-theme="business" title="Business Mode">💼</button>
+                </div>
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="de">DE</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <div class="accessibility-controls">
+                    <button class="accessibility-btn" id="font-size-btn" title="Text Size">Aa</button>
+                    <button class="accessibility-btn" id="contrast-btn" title="High Contrast">🎯</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="story-progress"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-avatar">
+                <div class="avatar-placeholder">
+                    <span class="avatar-text">PH</span>
+                </div>
+                <div class="avatar-status online"></div>
+            </div>
+            <h1 class="hero-title">
+                <span class="typing-text" data-text="Philipp Hahn"></span>
+            </h1>
+            <p class="hero-subtitle" data-translate="hero_subtitle">
+                Gaming-Leidenschaft trifft technische Exzellenz
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-value">5+</span>
+                    <span class="stat-label">Jahre Linux</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">95%</span>
+                    <span class="stat-label">Skill Level</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">100%</span>
+                    <span class="stat-label">Gaming Passion</span>
+                </div>
+            </div>
+            <button class="btn btn--primary btn--lg cta-button" id="start-adventure" data-translate="start_adventure">
+                Abenteuer starten
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Story Sections -->
+    <main class="main-content">
+        <!-- Childhood Gaming Section -->
+        <section class="story-section" id="childhood" data-section="childhood">
+            <div class="container">
+                <div class="story-content">
+                    <div class="story-text">
+                        <h2>Der erste Gameboy 🎮</h2>
+                        <p>Mit fünf Jahren hielt ich zum ersten Mal einen Gameboy in den Händen. Dieser Moment veränderte alles - die Faszination für interaktive Welten und die Technik dahinter war geboren.</p>
+                        <div class="story-highlight">
+                            <span class="highlight-year">1998</span>
+                            <span class="highlight-age">5 Jahre alt</span>
+                        </div>
+                    </div>
+                    <div class="story-visual">
+                        <div class="gameboy-animation">
+                            <div class="gameboy">
+                                <div class="screen">
+                                    <div class="pixel-art">GAME</div>
+                                </div>
+                                <div class="controls">
+                                    <div class="dpad"></div>
+                                    <div class="buttons">
+                                        <div class="btn-a">A</div>
+                                        <div class="btn-b">B</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- First Tech Challenge Section -->
+        <section class="story-section" id="first-challenge" data-section="first-challenge">
+            <div class="container">
+                <div class="story-content">
+                    <div class="story-visual">
+                        <div class="windows95-animation">
+                            <div class="old-computer">
+                                <div class="monitor">
+                                    <div class="screen-content">
+                                        <div class="windows95-ui">
+                                            <div class="taskbar">
+                                                <div class="start-button">Start</div>
+                                                <div class="window-title">Mega Man</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-text">
+                        <h2>Mega Man auf Windows 95 💻</h2>
+                        <p>Mit sechs Jahren wollte ich unbedingt Mega Man spielen, aber unser Windows 95-PC machte Probleme. Anstatt aufzugeben, begann ich zu experimentieren, Einstellungen zu ändern und Lösungen zu finden. Dieser Moment lehrte mich: Probleme sind da, um gelöst zu werden.</p>
+                        <div class="story-highlight">
+                            <span class="highlight-year">1999</span>
+                            <span class="highlight-text">Erstes IT-Problem gelöst</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- IT Journey Section -->
+        <section class="story-section" id="it-journey" data-section="it-journey">
+            <div class="container">
+                <div class="story-content">
+                    <div class="story-text">
+                        <h2>Der Weg zur IT-Expertise 🐧</h2>
+                        <p>Von der Ausbildung zum Zerspanungsmechaniker über das Studium der Technischen Informatik bis hin zur Linux-Administration - jeder Schritt brachte neue Herausforderungen und Lernmöglichkeiten.</p>
+                        <div class="journey-steps">
+                            <div class="step">
+                                <div class="step-icon">🔧</div>
+                                <div class="step-content">
+                                    <h4>Zerspanungsmechaniker</h4>
+                                    <p>Ausbildung mit Auszeichnung</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-icon">🎓</div>
+                                <div class="step-content">
+                                    <h4>Studium Informatik</h4>
+                                    <p>OTH Regensburg</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-icon">🐧</div>
+                                <div class="step-content">
+                                    <h4>Linux Administrator</h4>
+                                    <p>5+ Jahre Erfahrung</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-visual">
+                        <div class="career-progression">
+                            <div class="level-bar">
+                                <div class="level-fill" data-level="95"></div>
+                                <span class="level-text">Level 95 Linux Expert</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cipsoft Motivation Section -->
+        <section class="story-section" id="cipsoft-motivation" data-section="cipsoft-motivation">
+            <div class="container">
+                <div class="story-content">
+                    <div class="story-visual">
+                        <div class="cipsoft-vision">
+                            <div class="gaming-world">
+                                <div class="tibia-reference">
+                                    <div class="game-window">
+                                        <div class="game-header">Tibia - MMORPG</div>
+                                        <div class="game-content">
+                                            <div class="character-pixel"></div>
+                                            <div class="world-map"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-text">
+                        <h2>Warum Cipsoft? 🎯</h2>
+                        <p>Cipsoft ist mehr als nur ein Unternehmen - es ist ein Ort, an dem Leidenschaft für Gaming und Technik aufeinandertreffen. Als Schöpfer von Tibia habt ihr gezeigt, dass deutsche Entwickler Weltklasse-MMORPGs erschaffen können.</p>
+                        <p>Meine Linux-Expertise, meine Leidenschaft für Gaming und mein Verständnis für die technischen Herausforderungen von Online-Spielen machen mich zum idealen Kandidaten für euer Team.</p>
+                        <div class="motivation-points">
+                            <div class="point">✨ Leidenschaft für Gaming seit 25+ Jahren</div>
+                            <div class="point">🐧 Umfassende Linux-Expertise</div>
+                            <div class="point">🚀 DevOps & Cloud-Computing Erfahrung</div>
+                            <div class="point">🎮 Verständnis für Gaming-Infrastruktur</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill Tree Section -->
+        <section class="skill-tree-section" id="skills" data-section="skills">
+            <div class="container">
+                <h2 class="section-title" data-translate="skills_section">Skill Tree</h2>
+                <div class="skill-tree" id="skill-tree">
+                    <!-- Skills will be generated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-section" id="timeline" data-section="timeline">
+            <div class="container">
+                <h2 class="section-title" data-translate="timeline_section">Karriereweg</h2>
+                <div class="timeline" id="timeline">
+                    <!-- Timeline will be generated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements-section" id="achievements" data-section="achievements">
+            <div class="container">
+                <h2 class="section-title" data-translate="achievements_section">Erfolge</h2>
+                <div class="achievements-grid" id="achievements-grid">
+                    <!-- Achievements will be generated by JavaScript -->
+                </div>
+                <div class="achievement-popup" id="achievement-popup">
+                    <div class="achievement-content">
+                        <div class="achievement-icon">🏆</div>
+                        <div class="achievement-text">
+                            <h3 id="achievement-title"></h3>
+                            <p id="achievement-description"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section class="download-section" id="downloads" data-section="downloads">
+            <div class="container">
+                <h2 class="section-title" data-translate="download_section">Downloads</h2>
+                <div class="download-grid">
+                    <div class="download-card">
+                        <div class="download-icon">📄</div>
+                        <h3>Lebenslauf</h3>
+                        <p>Vollständiger CV mit allen Details</p>
+                        <button class="btn btn--primary">PDF Download</button>
+                    </div>
+                    <div class="download-card">
+                        <div class="download-icon">💌</div>
+                        <h3>Motivationsschreiben</h3>
+                        <p>Persönliche Motivation für Cipsoft</p>
+                        <button class="btn btn--primary">PDF Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact" data-section="contact">
+            <div class="container">
+                <h2 class="section-title" data-translate="contact_section">Kontakt</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Lass uns sprechen!</h3>
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>philipp_hahn93@yahoo.de</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>München, Deutschland</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Unternehmen</label>
+                            <input type="text" class="form-control" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Nachricht</label>
+                            <textarea class="form-control" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- AI Chatbot -->
+    <div class="chatbot" id="chatbot">
+        <div class="chatbot-trigger" id="chatbot-trigger">
+            <span class="chatbot-icon">🤖</span>
+            <div class="chatbot-badge" id="chatbot-badge">1</div>
+        </div>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <h4>AI Assistant</h4>
+                <button class="chatbot-close" id="chatbot-close">×</button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    <div class="message-text">Hallo! Ich bin Philipps AI-Assistent. Frag mich alles über seine Erfahrungen, Skills oder Motivation!</div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Frage eingeben..." id="chatbot-input">
+                <button id="chatbot-send">📤</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Achievement Toast -->
+    <div class="achievement-toast" id="achievement-toast">
+        <div class="toast-content">
+            <span class="toast-icon">🎉</span>
+            <span class="toast-text">Achievement unlocked!</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

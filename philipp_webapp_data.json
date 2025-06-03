@@ -1,0 +1,292 @@
+{
+  "personal_info": {
+    "name": "Philipp Hahn",
+    "birth_date": "09. September 1993",
+    "birth_place": "Straubing",
+    "nationality": "deutsch",
+    "email": "philipp_hahn93@yahoo.de"
+  },
+  "current_position": {
+    "title": "Linux System Engineer",
+    "company": "Manage Now GmbH",
+    "location": "München",
+    "start_date": "01.01.2025",
+    "responsibilities": [
+      "Administration diverser Serversysteme (Redhat, Suse, Debian Server)",
+      "Automatisierung von System- und Infrastrukturprozessen mit Ansible und Terraform",
+      "CI/CD-Pipelines (Jenkins, Bitbucket, Packer)",
+      "Kubernetes-Umgebungen implementieren und skalieren",
+      "Container-Technologien (Docker, Podman, OpenShift)",
+      "Microsoft Azure Server und Cloud-Dienste",
+      "IT-Sicherheit (Patch-Management, Firewalls, Security Audits)",
+      "Scripting und Automatisierung (Bash, Python)"
+    ]
+  },
+  "timeline": [
+    {
+      "age": 5,
+      "year": 1998,
+      "title": "Erster Gameboy",
+      "description": "Erste Berührung mit Gaming - der Moment, der alles veränderte",
+      "icon": "🎮",
+      "category": "gaming"
+    },
+    {
+      "age": 6,
+      "year": 1999,
+      "title": "Mega Man auf Windows 95",
+      "description": "Erstes technisches Problem lösen - der Beginn der IT-Leidenschaft",
+      "icon": "💻",
+      "category": "tech"
+    },
+    {
+      "age": 18,
+      "year": 2011,
+      "title": "Beginn Ausbildung Zerspanungsmechaniker",
+      "description": "Erste berufliche Ausbildung mit Auszeichnung abgeschlossen",
+      "icon": "🔧",
+      "category": "education"
+    },
+    {
+      "age": 22,
+      "year": 2015,
+      "title": "Studium Technische Informatik",
+      "description": "Einstieg in die IT-Welt an der OTH Regensburg",
+      "icon": "🎓",
+      "category": "education"
+    },
+    {
+      "age": 24,
+      "year": 2017,
+      "title": "Werksstudent bei Continental",
+      "description": "Erste praktische IT-Erfahrungen sammeln",
+      "icon": "💼",
+      "category": "work"
+    },
+    {
+      "age": 24,
+      "year": 2017,
+      "title": "Studium Medizinische Informatik",
+      "description": "Spezialisierung in der Informatik",
+      "icon": "🎓",
+      "category": "education"
+    },
+    {
+      "age": 27,
+      "year": 2020,
+      "title": "IT-Systemadministrator",
+      "description": "Einstieg als Linux Administrator bei 12Logistics",
+      "icon": "🐧",
+      "category": "work"
+    },
+    {
+      "age": 28,
+      "year": 2021,
+      "title": "IT-Leitung",
+      "description": "Beförderung zur Teamführung",
+      "icon": "👥",
+      "category": "leadership"
+    },
+    {
+      "age": 29,
+      "year": 2022,
+      "title": "IT-Specialist bei Fujitsu",
+      "description": "Erweiterung der Enterprise-IT Kenntnisse",
+      "icon": "🏢",
+      "category": "work"
+    },
+    {
+      "age": 31,
+      "year": 2025,
+      "title": "Linux System Engineer",
+      "description": "Aktuelle Position bei Manage Now GmbH",
+      "icon": "⚙️",
+      "category": "work"
+    }
+  ],
+  "skill_tree": {
+    "Linux Administration": {
+      "level": 95,
+      "category": "System Administration",
+      "sub_skills": [
+        "RedHat",
+        "SUSE",
+        "Debian",
+        "Ubuntu"
+      ],
+      "icon": "🐧"
+    },
+    "Container Technologies": {
+      "level": 90,
+      "category": "DevOps",
+      "sub_skills": [
+        "Docker",
+        "Podman",
+        "Kubernetes",
+        "OpenShift"
+      ],
+      "icon": "📦"
+    },
+    "Cloud Computing": {
+      "level": 85,
+      "category": "Cloud",
+      "sub_skills": [
+        "Microsoft Azure",
+        "Cloud Architecture",
+        "AZ-900"
+      ],
+      "icon": "☁️"
+    },
+    "Automation & Scripting": {
+      "level": 88,
+      "category": "Development",
+      "sub_skills": [
+        "Ansible",
+        "Terraform",
+        "Python",
+        "Bash"
+      ],
+      "icon": "🤖"
+    },
+    "CI/CD Pipelines": {
+      "level": 82,
+      "category": "DevOps",
+      "sub_skills": [
+        "Jenkins",
+        "Bitbucket",
+        "Packer",
+        "GitLab"
+      ],
+      "icon": "🔄"
+    },
+    "Database Administration": {
+      "level": 80,
+      "category": "Data Management",
+      "sub_skills": [
+        "Oracle SQL",
+        "MySQL",
+        "MS SQL",
+        "MongoDB"
+      ],
+      "icon": "🗄️"
+    },
+    "Security & Monitoring": {
+      "level": 85,
+      "category": "Security",
+      "sub_skills": [
+        "Firewalls",
+        "Security Audits",
+        "Prometheus",
+        "Grafana"
+      ],
+      "icon": "🛡️"
+    },
+    "Team Leadership": {
+      "level": 75,
+      "category": "Management",
+      "sub_skills": [
+        "Project Management",
+        "Team Führung",
+        "IT Strategy"
+      ],
+      "icon": "👥"
+    },
+    "Programming": {
+      "level": 78,
+      "category": "Development",
+      "sub_skills": [
+        "C",
+        "Python",
+        "HTML/CSS",
+        "JavaScript"
+      ],
+      "icon": "💻"
+    },
+    "Gaming Passion": {
+      "level": 100,
+      "category": "Personal",
+      "sub_skills": [
+        "E-Sports",
+        "Game Hardware",
+        "Streaming",
+        "Game Design"
+      ],
+      "icon": "🎮"
+    }
+  },
+  "work_experience": [
+    {
+      "title": "IT-Specialist",
+      "company": "Fujitsu Services GmbH",
+      "location": "Nürnberg",
+      "period": "01.07.2022 - 01.01.2025",
+      "duration_months": 30
+    },
+    {
+      "title": "IT-Leitung",
+      "company": "12Logistics",
+      "location": "Regensburg",
+      "period": "16.06.2021 - 30.06.2022",
+      "duration_months": 12
+    },
+    {
+      "title": "IT-Systemadministrator",
+      "company": "12Logistics",
+      "location": "Regensburg",
+      "period": "01.11.2020- 15.06.2021",
+      "duration_months": 7
+    },
+    {
+      "title": "Werksstudent als Informatiker",
+      "company": "Continental",
+      "location": "Regensburg",
+      "period": "01.07.2017 - 31.03.2020",
+      "duration_months": 33
+    }
+  ],
+  "education": [
+    {
+      "degree": "Medizinische Informatik",
+      "institution": "OTH Regensburg",
+      "period": "10/2017-04/2020"
+    },
+    {
+      "degree": "Technische Informatik",
+      "institution": "OTH Regensburg",
+      "period": "2015-2017"
+    },
+    {
+      "degree": "Zerspanungsmechaniker Ausbildung",
+      "institution": "Rodinger-Kunststoff-Technik GmbH",
+      "period": "01.09.2011 - 31.06.2014",
+      "note": "mit Auszeichnung"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Continental Zeugnis",
+      "description": "Ausgezeichnete Leistungen als Werksstudent",
+      "year": 2020,
+      "icon": "🏆"
+    },
+    {
+      "title": "Ausbildung mit Auszeichnung",
+      "description": "Zerspanungsmechaniker mit besonderer Anerkennung",
+      "year": 2014,
+      "icon": "🥇"
+    },
+    {
+      "title": "IT-Leadership",
+      "description": "Erfolgreiche Teamführung bei 12Logistics",
+      "year": 2021,
+      "icon": "👑"
+    }
+  ],
+  "motivation_story": {
+    "introduction": "Für mich ist Cipsoft mehr als nur ein Unternehmen - es ist ein Ort, an dem Leidenschaft für Gaming und Technik aufeinandertreffen.",
+    "childhood": "Mein Weg zur IT begann, als ich mit fünf Jahren zum ersten Mal einen Gameboy in den Händen hielt.",
+    "first_challenge": "Besonders prägend war der Moment, als ich mit etwa sechs Jahren versuchte, Mega Man auf unserem alten Windows 95-PC zum Laufen zu bringen.",
+    "passion": "Diese Neugier und mein Wille, Dinge selbst in die Hand zu nehmen, haben mich dazu gebracht, mich immer intensiver mit Computern und Technik zu beschäftigen.",
+    "conclusion": "Cipsoft wäre für mich der ideale Ort, um diese Leidenschaft auszuleben und meine technischen Fähigkeiten einzusetzen."
+  }
+}
